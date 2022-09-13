@@ -1,0 +1,26 @@
+.conteiner figure img{
+    width: 100%;
+
+}
+main{
+    text-align: center;
+   
+}
+
+@media screen and (min-width: 992px){
+    .conteiner figure img{
+        width: 40%;
+    }
+
+}
+
+.conteiner figure img{
+    margin-left: 8%
+}
+
+
+    .logod{
+        padding: 0 15px;
+    
+
+}

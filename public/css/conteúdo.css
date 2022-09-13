@@ -1,0 +1,21 @@
+body{
+    padding: 20px;
+}
+.conteiner img {
+    border-radius: 5px;
+    width: 50%;
+    border: solid;
+    
+    
+
+}
+
+@media screen and ( min-width: 992px){
+    .conteiner {
+        width: 93%
+    }
+}
+    
+.conteiner {
+    text-align: center;
+}

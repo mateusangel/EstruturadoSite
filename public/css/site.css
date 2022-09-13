@@ -1,0 +1,22 @@
+/* Estilos globais do Site*/
+body{
+    background-color: #1c0c3f;
+    font-family: sans-serif;     /*fonte padrão de todos os Site*/
+    color: #fff;
+    margin: 0px;
+    
+}
+
+.title{
+    padding: 0px 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+h1.title{
+    margin: 40px auto 20px;
+}
+
+.esquerda{
+    margin-left: 20px;
+    margin-right: 20px;
+}

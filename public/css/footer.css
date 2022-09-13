@@ -1,0 +1,20 @@
+/* Estilo do Rodapé*/
+
+footer{
+    text-align: center;
+    border-top: 1px solid #f0f5ff;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+    margin-bottom: 0px auto 30px;
+    
+}
+
+footer section #pr{
+    color: #5e49ff;
+}
+footer section #sg{
+    color: #3bd43d;
+}
+

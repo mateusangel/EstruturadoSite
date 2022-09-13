@@ -1,0 +1,137 @@
+.titulo{
+    
+    text-align: center;
+}
+
+.forme section div  {
+    margin: 15px 0px;
+
+}
+
+.forme section > div label{
+    
+    margin-bottom: 1%;
+    display:block
+    
+}
+
+.forme div input{
+    width: 90%;
+    padding: 5px 15px;
+    outline-color:   #25cbd3;
+    
+}
+
+.forme div select  {
+    
+    width: 100%
+}
+
+.forme textarea{
+    resize: none;
+}
+
+
+.forme > div input[type ="radio"]{
+    width: 35px;
+}
+
+.forme > div input[type='checkbox']{
+    
+    width: 20px;
+    margin-bottom: 1px;
+        
+}
+
+.onde select{
+    
+    padding: 6px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    
+    
+}
+
+.forme{
+    display: block;
+    
+}
+
+.forme > div input[type='submit'],
+.forme > div input[type='reset']
+{   
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    margin-top: 10px;
+  
+}
+
+.forme > div input[type ="submit"]{
+    background-color: #3bd42d;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+
+}
+.forme > div input[type ="reset"]{
+    background-color: #5e49ff;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+
+}
+
+@media screen and (min-width: 992px){
+    .forme{
+        width: 60%;
+        border: 1px solid  #25cbd3;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 25px auto;
+    }
+
+    .forme div input{
+        width: 95%;
+       
+    }
+
+    .forme div textarea{
+        width: 98.49%;
+    }
+
+    .onde{
+       margin: 10px;
+        width: 35%;
+        margin-right: 50%
+
+    }
+    .onde{
+        position: relative;
+        right: 10px;
+        top: 15px ;  
+    }
+
+    .forme > div input[type ="submit"]{
+        width: auto;
+        padding: 10px;
+        margin-right: 6px;
+    }
+
+    .forme > div input[type ="reset"]{
+        width: auto;
+        padding: 10px;
+        
+       
+    }
+    
+}
+
+.forme div textarea{
+    width: 98.5%;
+}
+
+.onde{
+    margin: 15px auto;
+}
